@@ -1,0 +1,49 @@
+/* Additional Custom CSS Styles */
+/* Example Styles */
+body {
+  font-family: 'Roboto', sans-serif;
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-wrapper {
+  background-color: #2e7d32;
+}
+
+.brand-logo {
+  margin-left: 20px;
+}
+
+.container {
+  margin-top: 50px;
+  text-align: center;
+  color: #333;
+}
+
+.card {
+  width: 300px;
+  margin: 20px auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-content {
+  padding: 20px;
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.card-text {
+  font-size: 1rem;
+}
+
+/* Add more custom styles as needed */

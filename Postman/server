@@ -1,0 +1,20 @@
+// Initialize Express
+const express = require('express');
+const app = express();
+
+// Define a route for adding two numbers
+app.get('/add', (req, res) => {
+    // Retrieve the query parameters from the URL
+    const { num1, num2 } = req.query;
+    
+    // Perform addition
+    const result = parseFloat(num1) + parseFloat(num2);
+    
+    // Send the result as a response
+    res.send(`The result of ${num1} + ${num2} is ${result}`);
+});
+
+// Start the server on port 3000
+app.listen(3000, () => {
+    console.log('Server is running on port 3000');
+});
